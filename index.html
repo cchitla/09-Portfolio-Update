@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chris Chitla</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600&display=swap&subset=latin-ext"
+        rel="stylesheet">
+
+
+    <!-- css reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,36 +26,55 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">Chris Chitla</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-6" id="info">
+                <div id="infotext">
+                    <span id="name">Chris Chitla</span>
+                    <br>
+                    <span id="subname">Web Development</span>
+                </div>
+            </div>
+
+            
+            <div class="col-3 portfolio mt-5">
+                <img class="portfolio-image" src="./assets/images/sw-background.jpg" alt="RPG Game">
+                <img class="portfolio-image mt-4" src="./assets/images/avatar gif search.png" alt="Giphy API Search">
+            </div>
+            <div class="col-3 portfolio mt-5">
+                <img class="portfolio-image" src="./assets/images/brewerysearch-logo.png" alt="Brewery Search">
+                <img class="portfolio-image mt-4" src="./assets/images/Train-Schedule-Board.jpg" alt="Firebase Train Scheduler">
+            </div>
+        
+
+        </div>
+
+
+
+
+        <!-- end of bootstrap div -->
+    </div>
 
 
 

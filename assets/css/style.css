@@ -1,4 +1,30 @@
-html {
-    background-color: #353531;
-    
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #0D1321;
+}
+
+#info {
+    color: #E8EEF2;
+    height: 100vh;
+    display: table;
+}
+
+#infotext {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#name {
+    font-size: 4rem;
+}
+
+#subname {
+    font-size: 1.5rem;
+}
+
+.portfolio-image {
+    border: 2px solid #18435A;
+    width: 256px;
+    height: 140px;
 }
