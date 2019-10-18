@@ -23,6 +23,11 @@ body {
     font-size: 1.5rem;
 }
 
+.portfolio {
+    color: #E8EEF2;
+    letter-spacing: 3px;
+}
+
 .portfolio-image {
     border: 2px solid #18435A;
     width: 256px;
