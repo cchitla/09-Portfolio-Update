@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #0D1321;
+    background-color: rgb(16, 24, 44);
 }
 
 #info {
@@ -16,11 +16,18 @@ body {
 }
 
 #name {
+    line-height: 1;
+    letter-spacing: .8rem;
     font-size: 4rem;
 }
 
 #subname {
-    font-size: 1.5rem;
+    letter-spacing: .43rem;
+    font-size: 1.4rem;
+}
+
+.divider {
+    border: solid .4px #E8EEF2;
 }
 
 .portfolio {
@@ -29,7 +36,33 @@ body {
 }
 
 .portfolio-image {
-    border: 2px solid #18435A;
+    border: 2px solid rgb(18, 48, 65);
     width: 256px;
     height: 140px;
+}
+
+#M, #E, #R, #N {
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    font-size: 2.5rem;
+}
+
+#M {
+    color: #12914F;
+}
+
+#E {
+    color: #CB7C70;
+}
+
+#R {
+    color: #61DAFB;
+}
+
+#N {
+    color: #75AE64;
+}
+
+.links {
+    color: #E8EEF2;
 }
