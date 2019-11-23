@@ -4,6 +4,16 @@ body {
     background-color: rgb(16, 24, 44);
 }
 
+a {
+    color: #e8eef2;
+}
+
+a:hover {
+    color: rgb(176, 182, 185);
+    text-decoration: none;
+}
+
+
 #info {
     color: #E8EEF2;
     height: 100vh;
@@ -66,3 +76,8 @@ body {
 .links {
     color: #E8EEF2;
 }
+
+.git-img {
+    height: 20px;
+}
+
