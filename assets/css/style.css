@@ -5,11 +5,11 @@ body {
 }
 
 a {
-    color: #e8eef2;
+    color: rgb(176, 182, 185);
 }
 
 a:hover {
-    color: rgb(176, 182, 185);
+    color: white;
     text-decoration: none;
 }
 
@@ -49,6 +49,10 @@ a:hover {
     border: 2px solid rgb(18, 48, 65);
     width: 256px;
     height: 140px;
+}
+
+.portfolio-image:hover {
+    border: 2px solid #E8EEF2;
 }
 
 #M, #E, #R, #N {
